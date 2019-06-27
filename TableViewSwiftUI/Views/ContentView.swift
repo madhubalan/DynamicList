@@ -27,21 +27,14 @@ struct ContentView : View {
     
     var body: some View {
         NavigationView{
-            VStack {
                 List(list) { item in
-                    NavigationButton(destination:(Text("Details View"))){
+                    NavigationButton(destination:(Text(item.name))){
                         VStack(alignment: .leading){Text("\(item.name) by "); Text("\(item.author)").color(.gray)}
                     }
                 }
-                
-                //        List{
-                //            Text("Madame Bovary by Gustave Flaubert")
-                //            Text("War and Peace by Leo Tolstoy")
-                //        }
-            }
             
+             .navigationBarItem(title: Text("Books"))
             }
-            .navigationBarTitle(Text("Books"))
     }
 }
 
