@@ -101,10 +101,9 @@
 		C21F3AE722AE640A005249D9 /* TableViewSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				C2719EC422B1EC7100A56ACA /* View */,
+				C2719EC422B1EC7100A56ACA /* Views */,
 				C21F3AE822AE640A005249D9 /* AppDelegate.swift */,
 				C21F3AEA22AE640A005249D9 /* SceneDelegate.swift */,
-				C21F3AEC22AE640A005249D9 /* ContentView.swift */,
 				C21F3AEE22AE640B005249D9 /* Assets.xcassets */,
 				C21F3AF322AE640B005249D9 /* LaunchScreen.storyboard */,
 				C21F3AF622AE640B005249D9 /* Info.plist */,
@@ -139,12 +138,13 @@
 			path = TableViewSwiftUIUITests;
 			sourceTree = "<group>";
 		};
-		C2719EC422B1EC7100A56ACA /* View */ = {
+		C2719EC422B1EC7100A56ACA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C21F3AEC22AE640A005249D9 /* ContentView.swift */,
 				C2719EC222B1EC6300A56ACA /* BookList.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
